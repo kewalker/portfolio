@@ -24,6 +24,13 @@
   color: white;
 }
 
+.App-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
 .App-link {
   color: #61dafb;
 }
