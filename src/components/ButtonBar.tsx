@@ -14,7 +14,7 @@ const ButtonBar: React.FC<ButtonBarProps> = ({ currentPage, onPageChange }) => {
 	const handleButtonClick = (page: string) => {
 		onPageChange(page);
 	};
-	
+
 	return (
 		<AppBar position="fixed">
 			<Toolbar>
