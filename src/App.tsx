@@ -10,6 +10,7 @@ import CharacterCounter from './components/CharacterCounter';
 import GameOfLife from './components/GameOfLife';
 import Boids from './components/Boids';
 import TextToSpeech from './components/TextToSpeech';
+import CellularAutomata from './components/CellularAutomata';
 
 interface CardData {
   title: string;
@@ -21,6 +22,7 @@ const theme = createTheme();
 
 const cardData: CardData[] = [
   { title: 'Boids Simulator', description: 'A bird-oid object simulator.', content: <Boids /> },
+  { title: 'Cellular Automata', description: 'Cellular Automata, the discrete computational system.', content: <CellularAutomata /> },
   { title: 'Character Counter', description: 'Count the number of characters in a string.', content: <CharacterCounter /> },
   { title: 'Game of Life', description: 'The classic Conway Game of Life.', content: <GameOfLife />},
   { title: 'Temperature Converter', description: 'Convert between Celsius and Fahrenheit.', content: <TemperatureConverter /> },
